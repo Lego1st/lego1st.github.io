@@ -4,7 +4,12 @@
 
 Here's the back-end of my personal blog where I note how to custom this thing :D
 
+# Prose
+
+Prose.io is a content editor for GitHub designed for managing websites
+
 # Daktilo
+
 Daktilo is a [Jekyll](jekyllrb.com) theme with a minimal design inspired from typewriters.
 
 ## Local
@@ -34,4 +39,3 @@ permalink: /categories/an-awesome-category/
 ```
 
 - Then you will see it in the footer in the `Explore` section.
-
