@@ -1,0 +1,15 @@
+<div class="about">
+    <div class="about__devider">*****</div>
+    <div class="about__text">
+        Written by <strong> {% if page.author.fullname %} {{ page.author.fullname }} {% else %} {{ site.author.fullname }} {% endif %}</strong>
+        on <strong>{{ page.date | date: "%d %B %Y" }}</strong>
+    </div>
+    <ul class="categories">
+        Category: 
+        {% for category in site.data.categories %}
+            {% if page.categories contains category.slug %}
+                <li class="categories__item"><a href="{{ '/categories/' | append: category.slug | prepend: site.baseurl }}">{{ category.name }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
