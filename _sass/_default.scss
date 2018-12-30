@@ -5,6 +5,7 @@ body {
     font-size: 20px;
     color: $iron;
     background-color: $dorian;
+    background-image: url('../assets/images/bg.jpg')
 }
 
 a {
@@ -67,7 +68,7 @@ strong {
 /* =Header */
 .wrapper {
     max-width: 800px;
-    margin: 100px auto;
+    margin: 80px auto;
 }
 
 .header {
@@ -132,7 +133,8 @@ strong {
 }
 
 .page-title__subtitle {
-    font-weight: 400;
+    margin-top: 10px;
+    font-weight: 700;
     font-size: 22px;
     color: $cloudy;
 }
@@ -170,6 +172,11 @@ strong {
     font-size: 16px;
     float: right;
     vertical-align: middle;
+    color: $cloudy;
+}
+
+.post-teaser__cate {
+    font-size: 16px;
     color: $cloudy;
 }
 
@@ -293,6 +300,13 @@ strong {
         @include centered-block();
     }
 
+    .post-teaser__cate {
+        font-size: 16px;
+        margin-top: 10px;
+        float: none;
+        @include centered-block();
+    }
+    
     .explore {
         margin-top: 80px;
     }
