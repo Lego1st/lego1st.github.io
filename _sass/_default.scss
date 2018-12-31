@@ -79,11 +79,24 @@ strong {
     float:left;
 }
 
-.logo {
-    font-size: 50px;
-    font-weight: 700;
-    color: $iron;
-    display: block;
+.logo-group {
+    display: table;
+    span,
+    img {
+        color: $iron;
+        display: table-cell;
+        vertical-align: middle;
+        margin: 0;
+    };
+    img {
+        height: 40px;
+        margin-top: 10px;  
+        transform: rotate(20deg);
+    }
+    span {
+        font-size: 50px;
+        font-weight: 700;
+    }
 }
 
 .menu {
