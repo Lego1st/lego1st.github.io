@@ -5,7 +5,7 @@ body {
     font-size: 20px;
     color: $iron;
     background-color: $dorian;
-    background-image: url('/assets/images/bg.jpg');
+    // background-image: url('/assets/images/bg.jpg');
 }
 
 a {
@@ -256,6 +256,9 @@ strong {
 
 @media (max-width: 800px) {
     /* =Base */
+    body {
+        font-size: 16px;
+    }
     p {
         font-size: 16px;
         line-height: 1.6;
