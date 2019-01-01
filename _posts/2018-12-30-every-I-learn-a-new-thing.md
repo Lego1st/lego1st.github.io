@@ -2,8 +2,10 @@
 layout: post
 title: Every day I learn a new thing
 subtitle: Learning new thing make the life fullfilling
-date:   2018-12-30 20:00:00 +0700
-categories: [happy]
+date: '2019-01-01 17:00:00 +0700'
+categories:
+  - happy
+published: true
 ---
 Let's do these:
 
@@ -13,4 +15,6 @@ Let's do these:
 - Cook something (not noodle)
 - Bake a cake
 - Build a Chrome extension
+- Yoga
+- Yoga Face
 - ...
