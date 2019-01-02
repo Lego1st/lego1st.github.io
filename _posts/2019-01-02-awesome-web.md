@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Awesome Web
-subtitle: Tập hợp những cái mình cho là hay về React
+subtitle: Tập hợp những cái mình cho là hay về Web app
 date: '2019-01-02 12:00:00 +0700'
 categories:
   - web
