@@ -7,3 +7,5 @@ categories: [web]
 ---
 
 [How I built a real time chat app using react and firebase](https://hackernoon.com/https-medium-com-sargupta-how-i-built-a-real-time-chat-app-using-react-and-firebase-dc8690bf41f7)
+
+[React/Redux Git Boilerplate](https://github.com/buckyroberts/React-Redux-Boilerplate)
