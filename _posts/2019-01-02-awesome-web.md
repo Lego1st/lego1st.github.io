@@ -13,3 +13,5 @@ published: true
 [React/Redux Git Boilerplate](https://github.com/buckyroberts/React-Redux-Boilerplate)
 
 [Django channels + React](https://qiita.com/cortyuming/items/1caefa0245f4a874382b)
+
+[Django channel tutorial](https://channels.readthedocs.io/en/latest/tutorial/index.html)
