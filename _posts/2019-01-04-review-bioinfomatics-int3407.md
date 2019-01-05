@@ -55,7 +55,7 @@ Một trong những định dạng dữ liệu chuẩn được các trung tâm 
 ### BLAST
 
 Độ phức tạp của thuật toán gióng hàng cục bộ (tìm các cặp đoạn con giống nhau nhất) không cho phép thực hiện so sánh chuỗi truy vấn với toàn bộ chuỗi trong các CSDL lớn của Genbank. Các phương pháp gần đúng được đưa ra, trong đó có BLAST.
-Dựa trên nhận xét là các cặp đoạn giống nhau thì thường sẽ có chung một đoạn con giống hệt nhau, thuật toán BLAST đầu tiên tìm ra các cặp đoạn con giống hệt nhau và có độ dài > k chọn trước, sau đó mở rộng sang 2 phía cho tới khi việc mở rộng khiến cho điểm giống nhau giảm quá một ngưỡng $\theta$. Quá trình mở rộng này diễn ra cho đến khi không thể mở rộng được nữa. Giá trị E-value thể hiện mức độ ngẫu nhiên, càng thấp càng chứng tỏ hai chuỗi đang so sánh có quan hệ chặt chẽ với nhau và ngược lại.
+Dựa trên nhận xét là các cặp đoạn giống nhau thì thường sẽ có chung một đoạn con giống hệt nhau, thuật toán BLAST đầu tiên tìm ra các cặp đoạn con giống hệt nhau và có độ dài > k chọn trước, sau đó mở rộng sang 2 phía cho tới khi việc mở rộng khiến cho điểm giống nhau giảm quá một ngưỡng $$\theta$$. Quá trình mở rộng này diễn ra cho đến khi không thể mở rộng được nữa. Giá trị E-value thể hiện mức độ ngẫu nhiên, càng thấp càng chứng tỏ hai chuỗi đang so sánh có quan hệ chặt chẽ với nhau và ngược lại.
 
 $$ Evalue (X_i, Y_j) = p \times q \times K \times e^{-\lambda S}$$
 
