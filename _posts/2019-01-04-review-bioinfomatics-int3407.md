@@ -51,3 +51,33 @@ NCBI là trung tâm thông tin trực tuyến lưu trữ nhiều cơ sở dữ l
 - PubMed: lưu trữ các tài liệu (bài báo, tài liệu kĩ thuật, sách trực tuyến, ..) liên quan đến các chủ đề trong khoa học cuộc sống.
 
 Một trong những định dạng dữ liệu chuẩn được các trung tâm thông tin sử dụng là FASTA, dùng để mô tả thông tin về một trình tự DNA (protein).
+
+### BLAST
+
+Độ phức tạp của thuật toán gióng hàng cục bộ (tìm các cặp đoạn con giống nhau nhất) không cho phép thực hiện so sánh chuỗi truy vấn với toàn bộ chuỗi trong các CSDL lớn của Genbank. Các phương pháp gần đúng được đưa ra, trong đó có BLAST.
+Dựa trên nhận xét là các cặp đoạn giống nhau thì thường sẽ có chung một đoạn con giống hệt nhau, thuật toán BLAST đầu tiên tìm ra các cặp đoạn con giống hệt nhau và có độ dài > k chọn trước, sau đó mở rộng sang 2 phía cho tới khi việc mở rộng khiến cho điểm giống nhau giảm quá một ngưỡng $\theta$. Quá trình mở rộng này diễn ra cho đến khi không thể mở rộng được nữa. Giá trị E-value thể hiện mức độ ngẫu nhiên, càng thấp càng chứng tỏ hai chuỗi đang so sánh có quan hệ chặt chẽ với nhau và ngược lại.
+
+$$ Evalue (X_i, Y_j) = p \times q \times K \times e^{-\lambda S}$$
+
+#### Nucleotide blast
+1. Nhập ADN truy vấn (dùng số hiệu truy cập hoặc nhập file theo dịnh dạng FASTA)
+2. Lựa chọn CSDL truy vấn để so sánh
+3. Xác định tham số cho thuật toán BLAST
+4. Chạy chương trình
+5. Phân tích và sao lưu kết quả: tổng hợp dữ liệu, tổng hợp kết quả tìm kiếm dưới dạng hình ảnh, mô tả kết quả tìm kiếm, liệt kê các cặp đoạn
+
+#### Nucleotide blast
+1. Nhập ADN truy vấn (dùng số hiệu truy cập hoặc nhập file theo dịnh dạng FASTA)
+2. Lựa chọn CSDL truy vấn để so sánh
+3. Xác định tham số cho thuật toán BLAST
+- Max target sequences: số lượng tối đa kết quả trả lại
+- Short queries: yêu cầu thuật toán tự điều chỉnh tham số với những chuỗi ADN ngắn
+- Expected threshold: đóng vai trò như bộ lọc các kết quả tìm được theo điểm E-value
+- Word size: độ dài các cặp đoạn hạt giống 
+- Scoring params: ma trận C
+4. Chạy chương trình
+5. Phân tích và sao lưu kết quả
+- tổng hợp dữ liệu: các thông tin cơ bản về chuỗi truy vấn, CSDL được chọn và chương trình blast (số hiệu, tên chuỗi, mô tả nội dung chuỗi truy vấn, độ dài chuỗi, loại dữ liệu, ..) 
+- tổng hợp kết quả tìm kiếm dưới dạng hình ảnh: cho cái nhìn tổng quát bằng hình ảnh (số lượng cặp đoạn giống nhau tìm được, phân bố các điểm giống nhau theo màu sắc, độ vài và vị trí các cặp đoạn, ..)
+- mô tả kết quả tìm kiếm: liệt kê thông tin về từng cặp giống nhau tìm được (thông tin chuỗi, điểm giống nhau, mức độ bao phủ, giá trị e-value, ..)
+- liệt kê các cặp đoạn: thông tin chi tiết hơn của từng cặp
