@@ -8,14 +8,14 @@ categories: null
 ---
 
 ### Nội dung ôn tập
-```
+
 - DNA (gien), RNA, protein, các thành tố cấu thành chuỗi gien, quá trình tổng hợp protein; các CSDL sinh học điển hình cho DNA và protein (v.d. NCBI, Protein databank, v.v.)
 - Chuỗi tương đồng
 - Gióng hàng 2 chuỗi, tìm kiếm CSDL với blast, các thông số trả về của blast.
 - Gióng hàng đa chuỗi (sử dụng profile hoặc mô hình sum-of-pair, star model)
 - Học máy (machine learning) trong tin sinh học (Mô hình Decision tree, Naive Bayesian model, etc., k-fold cross validation, v.v)
 - Dữ liệu gene expression
-```
+
 
 ### DNA (gien), RNA, protein, các thành tố cấu thành chuỗi gien, quá trình tổng hợp protein
 
@@ -26,9 +26,10 @@ Protein cũng thuộc những loại dữ liệu phổ biến và quan trọng t
 
 Mối quan hệ giữa DNA và Protein là: các đoạn DNA nhỏ trên chuỗi DNA sẽ mang thông tin hướng dẫn tạo ra Protein thông qua quá trình tổng hợp Protein, các đoạn DNA này được gọi là đoạn *gen*.
 
-Quá trình tổng hợp Protein gồm 2 giai đoạn: phiên mã và dịch mã: ADN $\to$ ARN $\to$ Protein
+Quá trình tổng hợp Protein gồm 2 giai đoạn: phiên mã và dịch mã: ADN -> ARN -> Protein
 - Phiên mã: đoạn gen trên DNA sẽ được biến đổi thành đoạn RNA mang thông tin tương ứng (T->U)
 - Dịch mã: đoạn RNA này sẽ được dịch mã thành đoạn amino acid theo quy tắc *mỗi bộ 3 nucleotide tương ứng (codon) sẽ được mã hóa thành 1 loại acid amin tương ứng theo bộ quy tắc* (trong 64 bộ 3 chỉ có 61 bộ mã hóa, 3 bộ còn lại là tín hiệu kết thúc quá trình dịch mã)
+
 ### Chuỗi tương đồng
 Hai chuỗi được gọi là tương đồng (trình tự tương đồng) nếu chúng tiến hóa từ một DNA tổ tiên chung. Nếu 2 chuỗi là tương đồng thì chúng sẽ tương đối giống nhau, không giống nhau hoàn toàn bởi có thể xảy ra đột biến trong quá trình tiến hóa (substitution, insertion, deletion), và cũng vì vậy mà chưa chắc 2 chuỗi giống nhau đã là tương đồng. Định nghĩa này cũng tương tự đối với Protein. 
 
