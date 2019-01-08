@@ -41,6 +41,7 @@ categories:
 - [Helio Coffee](https://www.foody.vn/ha-noi/helio-coffee-ba-trieu)
 - [Lofita](https://www.foody.vn/ha-noi/lofita-healthy-drinks-foods/album-khong-gian)
 - [Cup of Tea - Tây Hồ](https://www.foody.vn/ha-noi/cup-of-tea-nguyen-dinh-thi)
+- All Cộng
 
 High-up places:
 - Trill rooftop cafe
