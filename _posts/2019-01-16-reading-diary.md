@@ -9,4 +9,4 @@ categories:
   - happy
 ---
 ## NLP
-http://machineslearner.com/blog/2017/11/08/mt-as-style-transfer/
+[Machine Translation as Style Transfer](http://machineslearner.com/blog/2017/11/08/mt-as-style-transfer/)
