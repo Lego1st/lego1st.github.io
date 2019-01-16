@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 pulished: true
 layout: post
 title: Read diary (14-20/01/19)
@@ -10,6 +10,3 @@ categories:
 ---
 ## NLP
 http://machineslearner.com/blog/2017/11/08/mt-as-style-transfer/
-
-
-
