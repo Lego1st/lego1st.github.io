@@ -14,6 +14,10 @@ categories:
 
 [Deep inside: Autoencoders](https://towardsdatascience.com/deep-inside-autoencoders-7e41f319999f)
 
+[How can we be sure AI will behave? Perhaps by watching it argue with itself](https://www.technologyreview.com/s/611069/how-can-we-be-sure-ai-will-behave-perhaps-by-watching-it-argue-with-itself/?utm_campaign=owned_social&utm_medium=social&utm_source=facebook.com&fbclid=IwAR3xl8w6hmW4_Y0WUnfi5QJMWVKx8QnhBP3KIVpL9-aBleL5Vjgcv1yEA8A)
+
+
+
 ## READING
 
 [Memory Networks and why they're a good idea](https://www.braincreators.com/2018/06/memory-networks/)
