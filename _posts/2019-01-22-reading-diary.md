@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Reading (21-27/01/19)
+title: Read diary (21-27/01/19)
 subtitle: Nhật kí đọc của mình
 date: '2019-01-22 13:45:00 +0700'
 categories:
