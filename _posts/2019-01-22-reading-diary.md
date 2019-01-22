@@ -9,11 +9,11 @@ categories:
 ---
 ## Read
 
-
+[Sách "Đắc Nhân Tâm" viết về điều gì và tại sao sách lại bị tẩy chay](https://spiderum.com/bai-dang/Sach-Dac-Nhan-Tam-Viet-Ve-Dieu-Gi-Va-Tai-Sao-Sach-Lai-Bi-Tay-Chay-e97?fbclid=IwAR06NpZXC7gkDv5sy3RCjoN9kLxSI_1a7S09Ku58fIGDv1Fo3onbrzwRQsE)
 
 ## Reading
 
-[Sách "Đắc Nhân Tâm" viết về điều gì và tại sao sách lại bị tẩy chay](https://spiderum.com/bai-dang/Sach-Dac-Nhan-Tam-Viet-Ve-Dieu-Gi-Va-Tai-Sao-Sach-Lai-Bi-Tay-Chay-e97?fbclid=IwAR06NpZXC7gkDv5sy3RCjoN9kLxSI_1a7S09Ku58fIGDv1Fo3onbrzwRQsE)
+
 
 ## To read
 
