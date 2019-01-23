@@ -20,13 +20,17 @@ categories:
 
 ## Reading
 
+[Report on Text Classification using CNN, RNN & HAN](https://medium.com/jatana/report-on-text-classification-using-cnn-rnn-han-f0e887214d5f)
 
 
 ## To read
+
+[A gentle introduction to Doc2Vec](https://medium.com/scaleabout/a-gentle-introduction-to-doc2vec-db3e8c0cce5e)
+
+[Implementing Temporal Convolutional Networks](https://medium.com/the-artificial-impostor/notes-understanding-tensorflow-part-3-7f6633fcc7c7)
 
 [Social media analytics - Challenges in topic discovery, data collection, anddata preparation](https://www.sciencedirect.com/science/article/pii/S0268401217308526)
 
 [GroundAI - Image Quality Assessment](https://www.groundai.com/search/?text=image+quality&sort=_score)
 
 [Cảm xúc là đồ vứt đi](http://www.tamlyhoctoipham.com/cam-xuc-la-do-vut-di?fbclid=IwAR03tyIX5hYHbmrN8UTvaXDzsUNi7LQPCUuAAbsP7wnrb7EexdeDSorioOM)
-
