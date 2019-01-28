@@ -19,15 +19,23 @@ categories:
 
 [Report on Text Classification using CNN, RNN & HAN](https://medium.com/jatana/report-on-text-classification-using-cnn-rnn-han-f0e887214d5f)
 
+[A gentle introduction to Doc2Vec](https://medium.com/scaleabout/a-gentle-introduction-to-doc2vec-db3e8c0cce5e)
+
+[Cảm xúc là đồ vứt đi](http://www.tamlyhoctoipham.com/cam-xuc-la-do-vut-di?fbclid=IwAR03tyIX5hYHbmrN8UTvaXDzsUNi7LQPCUuAAbsP7wnrb7EexdeDSorioOM)
+
 ## Reading
 
 
 
 ## To read
 
-[Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~diyiy/docs/naacl16.pdf)
+[Practical Deep Learning for Coders 2019](https://www.fast.ai/2019/01/24/course-v3/?fbclid=IwAR20b34IWUMqz8zA2Zr4al6OUSj9Vr7lmBlkzY_D4cMkKBWNzB_fEG0uBzQ)
 
-[A gentle introduction to Doc2Vec](https://medium.com/scaleabout/a-gentle-introduction-to-doc2vec-db3e8c0cce5e)
+[How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
+
+[Full Reference Objective Quality Assessment for Reconstructed Background Images](https://www.groundai.com/project/full-reference-objective-quality-assessment-for-reconstructed-background-images/)
+
+[Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~diyiy/docs/naacl16.pdf)
 
 [Implementing Temporal Convolutional Networks](https://medium.com/the-artificial-impostor/notes-understanding-tensorflow-part-3-7f6633fcc7c7)
 
@@ -36,5 +44,3 @@ categories:
 [Social media analytics - Challenges in topic discovery, data collection, anddata preparation](https://www.sciencedirect.com/science/article/pii/S0268401217308526)
 
 [GroundAI - Image Quality Assessment](https://www.groundai.com/search/?text=image+quality&sort=_score)
-
-[Cảm xúc là đồ vứt đi](http://www.tamlyhoctoipham.com/cam-xuc-la-do-vut-di?fbclid=IwAR03tyIX5hYHbmrN8UTvaXDzsUNi7LQPCUuAAbsP7wnrb7EexdeDSorioOM)

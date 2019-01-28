@@ -1,0 +1,118 @@
+---
+layout: post
+title:  "Chatbot 101"
+subtitle: "Một cái nhìn khái quát về cái ở title"
+date:   2019-01-01 20:45:00 +0700
+categories: [nlp]
+---
+
+
+>If performing a task took longer than 2 steps on UI, chatbots provided a much better user experience.
+
+Trong bài này, chúng mình sẽ cùng tìm hiểu về một thứ gọi là Chatbot.
+
+## Giới thiệu
+
+Thực ra thì với từ Chatbot, mình muốn nói tới Conversational Agent hay Dialog Agent. Theo mình đọc được từ cuốn Speech and Language Processing thì 2 từ trên là 2 từ phổ biến được giới nghiên cứu sử dụng để nói tới cái mà bọn mình đang tìm hiểu. Tuy nhiên, từ Chatbot lại được sử dụng phổ biến và rộng rãi trong báo chí cũng như công nghiệp; trong giới nghiên cứu, từ này được sử dụng với một định nghĩa khác hơn. Bài viết sẽ giới thiệu khái quát về các vấn đề mà khi tìm hiểu Chatbor bạn sẽ thường gặp phải.
+
+Có 2 loại Dialog Agent:
+- **Task-oriented dialog agents**: Chúng được thiết kế để đảm nhiệm các nhiệm vụ cụ thế, thường xử lý các đoạn hội thoại ngắn, mục đích là lấy thông tin từ người dùng để hoàn thành nhiệm vụ. Có thể kể đến các ví dụ tiêu biêu như các trợ lý ảo (Siri, Cortana, Alexa, Google Now, ...), các Chatbot trên messegner hỗ trợ mua sắm, chăm sóc khách hàng hay ngân hàng.
+- **Chatbots**: Là những hệ thống được thiết kế để xử lý các đoạn hội thoại mở rộng, không có cấu trúc, tập trung chủ yếu vào bắt chước càng giống người càng tốt. Những hệ thống này mới dừng lại ở mục đích giải trí nhiều hơn (Ví dụ: Microsoft's XiaoIce). Có một số Chatbot được đánh giá vượt qua Turing test, trong đó Chatbot "xịn" nhất mà mình biết được là [Mitsuku](https://www.pandorabots.com/mitsuku/) (4 lần thắng Loebner Prize Turing Test, là best conversational chatbot)
+
+<div>
+  <img style="width: 50%; float: left" src="/assets/images/mitsuku1.png">
+  <img style="width: 50%; float: left" src="/assets/images/mitsuku2.png">
+</div>
+
+## Open Domain vs Closed Domain
+
+![](/assets/images/open-closed-domain.png)
+
+Từ 2 loại Chatbot kể trên mà người ta có khái niệm về **Open Domain** và **Closed Domain**.
+
+Trong **Open Domain**, người dùng có thể đưa cuộc hội thoại đến bất cứ đâu. Không có một chủ đề hay một mục đích cố định nào. Nó tương tự như những cuộc hội thoại trên Mạng xã hội, khi các bạn chat với nhau. Bạn có thể đang nói về một bộ phim và chuyển sang tối nay ăn gì rồi lại quay sang chuyện cách mạng 4.0. Cũng vì do số lượng chủ đề là vô vàn, hệ thống cần phải trả về lượng reponse tương ứng mà đây trở thành một bài toán khá khó. Mitsuku chính là một ví dụ tiêu biểu cho Open Domain.
+
+> Open Domain: I can ask a question about any topic… and expect a relevant response. (Harder) Think of a long conversation around refinancing my mortgage where I could ask anything. 
+
+Còn với **Closed Domain**, inputs và outputs được cho là có hạn bởi vì hệ thống chỉ chú tâm vào giải quyết một mục tiêu cụ thể. Các chatbot ngân hàng là 1 ví dụ cụ thể, ở đây bạn không thể vào hỏi những câu kiểu thời tiết ngày mai như nào và mong có câu trả lời thích đáng được (có thể có nếu như ngân hàng áp dụng Open Domain chăng).
+
+> Closed Domain: You can ask a limited set of questions on specific topics. (Easier). What is the Weather in Miami?
+
+## Các bước cơ bản để dựng 1 Chatbot (Task-oriented)
+
+Khi dựng 1 Chatbot thường sẽ quan tâm đến 3 thứ sau:
+
+- **Intent**: Là ý định của người dùng trong câu.
+- **Entity**: Các định danh trong câu như địa điểm, thời gian, tên người, ...
+- **Action**: Phản hồi hệ thống đáp lại người dùng.
+
+Ví dụ: Thời tiết ở Hà Nội ngày mai như nào ?
+- Intent: Kiếm tra thời tiết
+- Entity: Hà Nội, ngày mai
+- Action: "Thời tiết ở {Location} {Date} is {Weather}"
+
+Đế thiết kế ra một hệ thống chatbot, bạn có thể sử dụng các công cụ có sẵn hỗ trợ hay tự mình dựng lại từ đầu. Sau đây, chúng mình sẽ cùng tìm hiểu về cả 2 cách nhé.
+
+## Chatbot frameworks
+
+Không cần đụng tới một dòng code nào, bạn vẫn có thể tạo cho mình một hệ thống Chatbot sử dụng các frameworks như: Chatfuel, ManyChat, FlowXO, Octane, Recime, etc.
+
+![](/assets/images/chatfuel.jpeg)
+
+Nếu bạn là lập trình viên, có ít kinh nghiệm với Machine Learning, nhưng muốn tích hợp chatbot cho hệ thống có sẵn của mình, bạn có thể sử dụng các APIs, services được cung cấp bởi các công ty công nghệ hàng đầu như Google Diaglogflow, Amazon Lex, Facebook Wit, etc
+
+![](/assets/images/chatbot_frameworks.jpeg)
+
+Mỗi công cụ đều có điểm mạnh yếu riêng, nhưng nhìn chung thì chúng có luồng làm việc khá là giống nhau.
+
+## Retrieval-base vs Generative models 
+
+Việc tự xây cho mình Chatbot models sẽ yêu cầu bạn có kiến thức nhiều hơn về mảng lập trình, Machine learning và có thể là cả Deep learning. Chatbot models nhìn chung chia ra ít nhất làm 2 loại là Retrieval-base models và Generative models.
+
+### Retrieval-based model
+
+Mô hình này lấy câu trả lời/ hồi đáp từ một tập định trước bằng một số loại **Heuristic** để có thế pick được phản hồi phù hợp nhất với đầu vào (input) và bối cảnh (context). **Heuristic** ở đây có thể đơn giản là các kĩ thuật khớp luật (rule-based expression matching), sử dụng bài toán phân lớp trong Machine Learning, phức tạp hơn là các Neural Network và state-of-the-art hiện nay theo mình biết là [Memory Network](https://www.braincreators.com/2018/06/memory-networks/) và [Senmatic Networks](https://labs.cx.sap.com/2017/08/02/automated-question-answering-using-semantic-networks/?fbclid=IwAR07yrd3dP8z0GAoUsSPIZWvHwh724ne8fHs0iHIbGh2gBhbKIt5Oq9Kbks)
+
+**Ưu điểm**:
+- Không xảy ra các lỗi về ngữ pháp vì đáp án được lưu sẵn.
+- Hoạt động hiệu quả với các bài toán business cũng như chăm sóc khách hàng.
+- Dễ để build mà không cần dữ quá nhiều dữ liệu.
+
+**Nhược điểm**:
+- Hệ thống không sinh ra câu trả lời mà pick từ tập có trước nên khá khô cứng
+- Hệ thống không thực sự thông minh cho lắm, vì có nhiều luật (hard-coded rules)
+
+### Generative models
+
+Những mô hình như thế này không dựa vào tập phản hồi định nghĩa trước. Chúng tạo ra những câu trả lời "mới toanh" hay là do nó tự "nghĩ" ra. Generative models được phát triển dựa trên bài toán Dịch Máy (Machine translation), nhưng thay vì dịch từ ngôn ngữ này sang ngôn ngữ khác, chúng mình dịch từ input ra output (phản hồi). Lớp bài toán này thường sử dụng model sequence to sequence để sinh ra text.
+
+![](/assets/images/seq2seq.png)
+
+**Ưu điểm**:
+- Không cần phải chuẩn bị luật
+
+**Nhược điểm**:
+- Không dễ để implement và output thì có thế không chính xác (sai lỗi ngữ pháp, sai về mặt ngữ nghĩa)
+- Không áp dụng được cho các bài toán business (việc áp dụng vào thực tế business có rủi ro khá cao)
+- Cần rất nhiều dữ liệu để huấn luyện 
+
+## Kết luận 
+
+Mặc dù vậy, hiện nay Chatbot phần lớn vẫn là rule-based khá nhiều, tồn tại một số thách thức như là: Theo sát được bối cảnh câu chuyện (context), cá nhân hóa, gán cho mỗi Chatbot một tính cách, định danh riêng, rồi thì làm thế nào để đánh giá được một mô hình Chatbot là tốt hay không tốt, tốt như thế nào. Các thách thức kể trên vẫn đang và sẽ được các nhà khoa hoc, các viện nghiên cứu tập trung tìm phương án giải quyết. Chúng mình có thể hi vọng vào tương lai sẽ có một Doraemon, một Samantha thực sự có thể trò chuyện với con người, đem đến cảm giác như là 2 con người đang nói với nhau chứ không chỉ còn là người và máy.
+
+Nếu có dịp, mình sẽ viết sâu hơn về các models đề cập trong bài viết này. Thanks for reading !
+
+![](/assets/images/robot-man.jpg)
+
+## References: 
+* [Tất cả những gì bạn cần biết về chatbot - Viblo](https://viblo.asia/p/tat-ca-nhung-gi-ban-can-biet-ve-chatbot-Az45bnNg5xY)
+* [Mitsuku](https://www.pandorabots.com/mitsuku/)
+* [Chapter 11: ChatBots to Question & Answer systems. – Deep Math Machine learning.ai – Medium](https://medium.com/deep-math-machine-learning-ai/chapter-11-chatbots-to-question-answer-systems-e06c648ac22a)
+* [Ultimate Guide to Leveraging NLP & Machine Learning for your Chatbot](https://chatbotslife.com/ultimate-guide-to-leveraging-nlp-machine-learning-for-you-chatbot-531ff2dd870c)
+* [Microsoft deletes racist, genocidal tweets from AI chatbot Tay - Business Insider](https://www.businessinsider.com/microsoft-deletes-racist-genocidal-tweets-from-ai-chatbot-tay-2016-3)
+* [The best chatbots and tools for Facebook Messenger, Amazon, Discord, Telegram, Twitter, WeChat, LINE, Slack, Skype and more](https://botlist.co/)
+* [I built a chatbot in 2 hours and this is what I learned](https://hackernoon.com/i-built-a-chatbot-in-2-hours-and-this-is-what-i-learned-f5dbb4ba5fcc)
+* [NLP vs CI Who is The King of Chatbot? – UX Planet](https://uxplanet.org/nlp-vs-ci-who-is-the-king-of-chatbot-2f9d2e09f085)
+* [GitHub - chiphuyen/stanford-tensorflow-tutorials: This repository contains code examples for the Stanford's course: TensorFlow for Deep Learning Research.](https://github.com/chiphuyen/stanford-tensorflow-tutorials)
+* [Deep Learning in Open Domain Dialogue Generation](https://web.stanford.edu/class/cs224s/lectures/224s.17.lec12.pdf)
+* [Conversational Agent](https://web.stanford.edu/class/cs124/lec/chatbot.pdf)
