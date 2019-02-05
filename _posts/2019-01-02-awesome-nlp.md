@@ -13,3 +13,5 @@ published: true
 [Special Issue on Language in Social Media: Exploiting Discourse and Other Contextual Information](https://aclanthology.info/papers/J18-4006/j18-4006)
 
 [Natural Language Understanding benchmark](https://github.com/snipsco/nlu-benchmark)
+
+[W2V Vietnamese News 19GB](https://drive.google.com/open?id=1ovLbpvzSGrS4NDxZu8Ftdgc73uHzNQJf&fbclid=IwAR3RO_zmHgfW4NEIE9lX4fVIrMMNQvjlUntfKoH6tanVinsUTzAFSOwN_zc)
