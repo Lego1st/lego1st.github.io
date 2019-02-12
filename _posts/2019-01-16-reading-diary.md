@@ -8,7 +8,7 @@ date: '2019-01-16 11:44:00 +0700'
 categories:
   - happy
 ---
-## READ
+## Read
 
 [Machine Translation as Style Transfer](http://machineslearner.com/blog/2017/11/08/mt-as-style-transfer/)
 
@@ -20,10 +20,9 @@ categories:
 
 [Chia sẻ kinh nghiệm leo Fansipan](https://blogphuot.info/phuot-trekking/chia-se-voi-ban-kinh-nghiem-leo-fansipan-an-toan-va-day-du-nhat.html)
 
-## READING
+## Reading
 
-
-## TO READ
+## To read
 
 
 [Memory Networks and why they're a good idea](https://www.braincreators.com/2018/06/memory-networks/)
