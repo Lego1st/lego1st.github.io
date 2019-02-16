@@ -30,7 +30,7 @@ img {
 }
 
 blockquote {
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     margin:0px;
     margin-top: 40px;
     margin-bottom: 70px;
@@ -335,4 +335,8 @@ strong {
     .post-title__subtitle {
         font-size: 18px;
     }
+}
+
+.highlight {
+    font-size: 14px;
 }

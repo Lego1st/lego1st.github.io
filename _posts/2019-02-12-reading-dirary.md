@@ -23,8 +23,14 @@ categories:
 
 ## Reading
 
+[Nhận Dạng Chữ Tiếng Việt - Vietnamese OCR](https://pbcquoc.github.io/vietnamese-ocr/)
+
 [How to Develop a Deep Learning Photo Caption Generator from Scratch](https://machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/)
 
 [Deeplearning.ai summary](https://github.com/mbadry1/DeepLearning.ai-Summary/tree/master/3-%20Structuring%20Machine%20Learning%20Projects)
 
 ## To read
+
+[A Coprehensive Survey of Deep Learning for Image Captioning](https://arxiv.org/pdf/1810.04020.pdf)
+
+[Image Aesthetic Assessment: An Experimental Survey](https://arxiv.org/pdf/1610.00838.pdf)
