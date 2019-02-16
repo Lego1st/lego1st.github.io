@@ -8,6 +8,9 @@ sitemap:
 
 <ul class="list-posts">
     {% for post in site.posts %}
+        {% if post.categories contains "happy" %}
+            {% continue %}
+        {% endif %}
         <ul class="post-teaser__cate categories">
             [
             {% for category in site.data.categories %}
