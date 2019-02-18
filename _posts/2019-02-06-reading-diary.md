@@ -18,8 +18,5 @@ categories:
 
 [IMO xong thì làm gì](https://www.facebook.com/notes/trung-nguyen/imo-xong-th%C3%AC-l%C3%A0m-g%C3%AC-n%E1%BB%AFa/10203516071698815/)
 
-## Reading
-
-
 
 ## To read

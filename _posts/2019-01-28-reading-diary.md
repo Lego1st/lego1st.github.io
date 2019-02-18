@@ -14,8 +14,5 @@ Tuần này nghỉ dọn dẹp các thứ nên mình chưa đọc gì ra hồn :
 
 [More Recycling Won't Solve Plastic Pollution](https://blogs.scientificamerican.com/observations/more-recycling-wont-solve-plastic-pollution/)
 
-## Reading
-
-
 
 ## To read

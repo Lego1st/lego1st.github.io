@@ -23,10 +23,6 @@ categories:
 
 [Cảm xúc là đồ vứt đi](http://www.tamlyhoctoipham.com/cam-xuc-la-do-vut-di?fbclid=IwAR03tyIX5hYHbmrN8UTvaXDzsUNi7LQPCUuAAbsP7wnrb7EexdeDSorioOM)
 
-## Reading
-
-
-
 ## To read
 
 [Practical Deep Learning for Coders 2019](https://www.fast.ai/2019/01/24/course-v3/?fbclid=IwAR20b34IWUMqz8zA2Zr4al6OUSj9Vr7lmBlkzY_D4cMkKBWNzB_fEG0uBzQ)

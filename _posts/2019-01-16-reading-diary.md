@@ -20,7 +20,6 @@ categories:
 
 [Chia sẻ kinh nghiệm leo Fansipan](https://blogphuot.info/phuot-trekking/chia-se-voi-ban-kinh-nghiem-leo-fansipan-an-toan-va-day-du-nhat.html)
 
-## Reading
 
 ## To read
 
