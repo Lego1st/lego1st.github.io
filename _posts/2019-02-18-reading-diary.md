@@ -10,10 +10,10 @@ categories:
 
 ## Read
 
+[A Coprehensive Survey of Deep Learning for Image Captioning](https://arxiv.org/pdf/1810.04020.pdf)
 
 ## Reading
 
-[A Coprehensive Survey of Deep Learning for Image Captioning](https://arxiv.org/pdf/1810.04020.pdf)
 
 ## To read
 
