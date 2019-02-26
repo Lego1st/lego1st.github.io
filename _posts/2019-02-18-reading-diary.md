@@ -15,6 +15,11 @@ categories:
 ## Reading
 
 
+
 ## To read
 
 [The Power of Goal-Setting in Data Science](https://towardsdatascience.com/the-power-of-goal-setting-for-your-data-science-project-9338bf475abd)
+
+[Show, Control and Tell](https://arxiv.org/pdf/1811.10652v2.pdf)
+
+[9 Deep Learning Papers You Need To Know About](https://adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html)
