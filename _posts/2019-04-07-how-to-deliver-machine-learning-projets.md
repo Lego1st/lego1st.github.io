@@ -8,13 +8,13 @@ categories: [mlearning]
 
 > Build only what you need to build, and do it fast
 
-Với sự phát triển không ngừng của công nghệ, đâu đâu người ta cũng nhắc tới Cách mạng công nghiệp 4.0, thì có thể nói Học máy (Machine Learning) đã trở thành một cái tên không còn xa lạ trong giới công nghiệp. Cùng với nhu cầu ngày càng nhiều của xã hội, một ngành mới được ra đời, Kĩ sư Học máy (Machine Learning Engineers). 
+Với sự phát triển không ngừng của công nghệ, đâu đâu người ta cũng nhắc tới Cách mạng công nghiệp 4.0. Trong bối cảnh đó, Học máy (Machine Learning) đã trở thành một cái tên không còn xa lạ trong giới công nghiệp. Cùng với nhu cầu ngày càng nhiều của xã hội, một ngành mới được ra đời, Kĩ sư Học máy (Machine Learning Engineers). 
 
-Kĩ sư Học máy có tổ hợp kĩ năng về Học máy và kĩ thuật phần mềm (Software Engineering). Một Kĩ sư Học máy là người có thể sử dụng các kĩ năng của mình để tìm ra các mô hình học máy có hiệu suất cao đem vào ứng dụng và cũng là người xử lý các vấn đề từ cơ sở hạ tầng phục vụ huấn luyện cho đến tạo ra mô hình áp dụng thực tế. Có kha khá nguồn tài liệu trên mạng để một Kỹ sư phần mềm hay bất cứ ai học về Học máy. Tuy nhiên, trong thực tế, một đội ngũ làm Học máy sẽ phải đối mặt với một vấn đề: Làm sao để có thể quản lý các tiến trình của dự án như các dự án phần mềm truyền thống ? Sau đây là bài viết trả lời cho câu hỏi đó.
+Kĩ sư Học máy là người có cả kĩ năng về Học máy và Kĩ thuật phần mềm (Software Engineering). Một Kĩ sư Học máy có thể sử dụng các kĩ năng của mình để tìm ra những mô hình học máy có hiệu suất cao đem vào ứng dụng và cũng là người xử lý các vấn đề từ cơ sở hạ tầng phục vụ huấn luyện cho đến tạo ra mô hình áp dụng thực tế. Có kha khá nguồn tài liệu trên mạng để một Kỹ sư phần mềm hay bất cứ ai học về Học máy. Tuy nhiên, trong thực tế, một đội ngũ làm Học máy sẽ phải đối mặt với vấn đề: Làm sao để có thể quản lý các tiến trình của dự án như các dự án phần mềm truyền thống ? Sau đây là bài viết trả lời cho câu hỏi đó.
 
 ## The ML Engineering Loop 
 
-Trong bài viết này, chúng mình sẽ cùng tìm hiểu về khái niệm "OODA Loop" của Học máy: ML Engineering Loop, với khái niệm này chúng mình sẽ tuần tự theo các bước
+Trong bài viết này, chúng mình sẽ cùng tìm hiểu về khái niệm "OODA Loop" của Học máy: ML Engineering Loop, với khái niệm này một Kỹ sư sẽ tuần tự theo các bước
 
 1. Phân tích (Analyze)
 
@@ -24,13 +24,13 @@ Trong bài viết này, chúng mình sẽ cùng tìm hiểu về khái niệm "O
 
 4. Đo đạc (Measure)
 
-để có thể tìm ra được mô hình học máy hiệu quả một cách nhanh chóng. Đối với mỗi giai đoạn sẽ có những lời khuyên mà tác giả nghĩ có thể giúp tối ưu được toàn bộ quá trình. 
+để có thể tìm ra được mô hình học máy hiệu quả một cách nhanh chóng. Đối với mỗi giai đoạn sẽ có những lời khuyên mà tác giả nghĩ có thể hữu ích trong việc tối ưu toàn bộ quá trình. 
 
 ![](https://cdn-images-1.medium.com/max/2400/1*OILsPq8hrosFVjXwnOoo-Q.png)
 
-Một đội ngũ ML thành công khi triển khai được một mô hình có hiệu suất cao với những rằng buộc đã cho (ví dụ: đạt độ chính xác cao nhưng vẫn phải đảm bảo về bộ nhớ, thời gian chạy, etc). Hiệu suất (performance) được định nghĩa là đơn vị đo liên quan nhất tới thành công của sản phẩm cuối. Hiệu suất sẽ được dịch sang ngôn ngữ tương ứng của Học máy để quy về các độ đo. Trong ví dụ dưới đây, tác giả sẽ chọn "error rate" là đơn vị đo hiệu suất.
+Một đội ngũ ML thành công khi triển khai được mô hình có hiệu suất cao với những rằng buộc đã cho (ví dụ: đạt độ chính xác cao nhưng vẫn phải đảm bảo về bộ nhớ, thời gian chạy, etc). Hiệu suất (performance) được định nghĩa là đơn vị đo liên quan nhất tới thành công của sản phẩm cuối. Hiệu suất sẽ được dịch sang ngôn ngữ tương ứng của Học máy để quy về các độ đo. Trong ví dụ dưới đây, tác giả sẽ chọn "error rate" là đơn vị đo hiệu suất.
 
-Khi mới bắt đầu, bạn nên định nghĩa ra tiêu chí cho thành công. Dưới góc nhìn về sản phẩm, theo bạn, hiệu suất như thế nào thì bắt đầu gọi là hữu dụng? Ví dụ như hệ thống của bạn gợi ý ra 5 bài báo liên quan, ít nhất bao nhiêu trong số đó cần phải thực sự liên quan, và thế nào là liên quan ?
+Khi mới bắt đầu, bạn nên định nghĩa ra tiêu chí như nào thì gọi là thành công. Dưới góc nhìn về sản phẩm, theo bạn, hiệu suất như thế nào thì bắt đầu gọi là hữu dụng? Ví dụ như hệ thống của bạn gợi ý ra 5 bài báo liên quan, ít nhất bao nhiêu trong số đó cần phải thực sự liên quan, và thế nào là liên quan ?
 
 ML Engineering Loop sẽ giúp bạn định hình được quá trình phát triển, đơn giản hóa quá trình quyết định để có thể tập trung hơn vào bước tiếp theo. Khi đã quen dần với vòng lặp này, bạn sẽ có thể nhanh chóng luân phiên giữa phân tích và thực thi. Vòng lặp này còn hữu ích kể cả khi bạn đã là chuyên gia, bạn sẽ không bị ngợp hay mông lung khi mô hình không đáp ứng yêu cầu hay đột nhiên mục tiêu của nhóm thay đổi.
 
@@ -42,7 +42,7 @@ ML Engineering Loop sẽ giúp bạn định hình được quá trình phát tr
 
 2. Áp dụng một mô hình đơn giản chạy được.
 
-Ví dụ, có thể sử dụng các dữ liệu tương tự có sẵn từ một cuộc thi trên Kaggle cho huấn luyện tập train, dữ liệu thu thập tay cho tập development và test. Về mô hình có thể chọn hồi quy tuyến tính (logistic regression) với dữ liệu gốc hay chạy một mô hình đã huấn luyện sẵn (pre-trained network). Nên nhớ rằng, mục đích là chỉ cần chạy được, để khởi động cho vòng lặp.
+Ví dụ, có thể sử dụng các dữ liệu tương tự có sẵn từ một cuộc thi trên Kaggle cho huấn luyện tập train, dữ liệu thu thập tay cho tập development và test. Về mô hình có thể chọn hồi quy tuyến tính (logistic regression) với dữ liệu các pixel gốc hay chạy một mô hình đã huấn luyện sẵn (pre-trained network). Nên nhớ rằng, mục đích là chỉ cần chạy được, để khởi động cho vòng lặp.
 
 **Lời khuyên**
 
