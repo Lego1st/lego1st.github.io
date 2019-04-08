@@ -3,7 +3,7 @@ layout: post
 title:  "Deep Learning for Image Captioning"
 subtitle: "Một note cho survey về Deep Learning cho Image Captioning"
 date:   2019-02-17 12:00:00 +0700
-categories: [vision]
+categories: [vision, mlearning]
 ---
 
 ## Introduction

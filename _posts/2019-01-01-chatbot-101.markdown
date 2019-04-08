@@ -3,7 +3,7 @@ layout: post
 title:  "Chatbot 101"
 subtitle: "Một cái nhìn khái quát về cái ở title"
 date:   2019-01-01 20:45:00 +0700
-categories: [nlp]
+categories: [nlp, mlearning]
 ---
 
 

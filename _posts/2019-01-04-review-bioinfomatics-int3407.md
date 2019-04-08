@@ -4,7 +4,7 @@ layout: post
 title: BioInformatics INT3407
 subtitle: Ôn tập cho khóa học INT3407
 date: '2019-01-04 11:00:00 +0700'
-categories: null
+categories: [others]
 ---
 
 ### Nội dung ôn tập

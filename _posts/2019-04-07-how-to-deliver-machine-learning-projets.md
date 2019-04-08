@@ -3,7 +3,7 @@ layout: post
 title:  "Hướng triển khai cho các project Machine Learning"
 subtitle: "Định hướng vòng lặp ML Engineering"
 date:   2019-04-07 14:00:00 +0700
-categories: []
+categories: [mlearning]
 ---
 
 > Build only what you need to build, and do it fast

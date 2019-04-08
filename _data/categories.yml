@@ -21,3 +21,9 @@
 
 - slug: vision
   name: Computer Vision
+
+- slug: mlearning
+  name: Machine Learning
+
+- slug: others
+  name: Others
