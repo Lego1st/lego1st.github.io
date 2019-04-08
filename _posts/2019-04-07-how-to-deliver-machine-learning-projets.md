@@ -74,7 +74,7 @@ Một khi đã có bản prototype, bạn có thể kiểm tra hiệu suất tr�
 
 #### Xác định "nút thắt cổ chai" (bottleneck)
     
-Giai đoạn Phân tích cũng khá giống trong y học: Bạn được trang bị một số phương pháp chẩn đoán và mục tiêu là kết luận được cái gì đã giới hạn hiệu suất của mô hình. Tìm ra những vấn đề dễ dàng thấy được trước, hiểu được tác nhân nào có tác động lớn nhất tới vấn đề đó bởi rất nhiều vấn đề nhỏ sẽ thay đổi và thậm chí là biến mất khi mô hình được cải thiện.
+Giai đoạn Phân tích cũng khá giống trong y học: Bạn được trang bị một số phương pháp chẩn đoán và mục tiêu là kết luận được cái gì đã giới hạn hiệu suất của mô hình. Tìm ra những vấn đề dễ dàng thấy được trước, hiểu được tác nhân nào có tác động lớn nhất tới vấn đề đó, bạn không cần phải cố gắng hiểu cũng như giải quyết tất cả các vấn đề, bởi rất nhiều vấn đề nhỏ sẽ thay đổi và thậm chí là biến mất khi mô hình được cải thiện.
 
 Dưới đây là danh sách một số phương pháp cũng với chẩn đoán. Việc chọn ra phương pháp nào cũng là một nghệ thuật, sau khi áp dụng nhuần nhuyễn ML Engineering Loop bạn sẽ có được "trực giác" để biết mình nên thử cái nào. 
 
