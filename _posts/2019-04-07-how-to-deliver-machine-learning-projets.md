@@ -14,7 +14,7 @@ Kĩ sư Học máy có tổ hợp kĩ năng về Học máy và kĩ thuật ph�
 
 ## The ML Engineering Loop 
 
-Trong bài viết này, chúng mình sẽ cùng tìm hiều về khái niệm "OODA Loop" của Học máy: ML Engineering Loop, với khái niệm này chúng mình sẽ tuần tự theo các bước
+Trong bài viết này, chúng mình sẽ cùng tìm hiểu về khái niệm "OODA Loop" của Học máy: ML Engineering Loop, với khái niệm này chúng mình sẽ tuần tự theo các bước
 
 1. Phân tích (Analyze)
 
@@ -48,7 +48,7 @@ Ví dụ, có thể sử dụng các dữ liệu tương tự có sẵn từ m�
 
 Về tập test:
 
-- Vì mục đích là làm tốt trên tập test, vậy nên tập test cần phản ánh chính xác mục đích sản phẩm hay thương mại của dự án. Ví dụ khi bạn đang xây dựng 1 ứng dụng chẩn đoán tình trạng của da người qua ảnh selfie, bạn có thể train trên bất cứ dữ liệu nào, nhưng hãy đảm bảm dữ liệu test sẽ chứa những ảnh ánh sánh yếu, chất lượng kém như ảnh selfie.
+- Vì mục đích là làm tốt trên tập test, vậy nên tập test cần phản ánh chính xác mục đích sản phẩm hay thương mại của dự án. Ví dụ khi bạn đang xây dựng 1 ứng dụng chẩn đoán tình trạng của da người qua ảnh selfie, bạn có thể train trên bất cứ dữ liệu nào, nhưng hãy đảm bảo dữ liệu test sẽ chứa những ảnh ánh sánh yếu, chất lượng kém như ảnh selfie.
 
 - Thay đổi tập test sẽ là thay đổi mục tiêu của nhóm, vậy nên nếu có thay đổi thì nên thay đổi sớm, và chỉ nên thay đổi khi có thay đổi về dự án, sản phẩm hay mục tiêu thương mại.
 
@@ -108,11 +108,11 @@ Với bất kỳ lý do nào kể trên, bạn đều có thể phân tích tậ
 
 1. Xác định các lỗi phổ biến bằng cách biểu diễn trực quan dữ liệu (visualizing the data). Nắm được tần suất của các loại lỗi trên dữ liệu. Trong bài toán phân loại (classification) **confusion matrix** sẽ giúp dễ dàng xác định được những class mà mô hình học tệ nhất. Sau đó bạn có thể tập trung vào giải quyết các loại lỗi đó.
 
-2. Một số mãu có thể bị đánh nhãn sai hoặc có nhiều hơn một nhãn.
+2. Một số mẫu có thể bị đánh nhãn sai hoặc có nhiều hơn một nhãn.
 
-3. Một vài mẫu có thể khó học hơn cái khác, hoặc bị thiếu thông thông tin. Hãy đánh mác lại cho các mẫu dữ liệu, có dữ liệu sẽ là "rất khó" và có dữ liệu lại "rất dễ", kiểm soát được điều này sẽ giúp bạn tối ưu hơn trong việc giả quyết lỗi nào trước.
+3. Một vài mẫu có thể khó học hơn cái khác, hoặc bị thiếu thông thông tin. Hãy đánh mác lại cho các mẫu dữ liệu, có dữ liệu sẽ là "rất khó" và có dữ liệu lại "rất dễ", kiểm soát được điều này sẽ giúp bạn tối ưu hơn trong việc giải quyết lỗi nào trước.
 
-Một số chản đoán nêu trên sẽ có các khắc phục hiển nhiên, ví dụ như thiếu dữ liệu thì sẽ lấy thêm. Tuy nhiên, việc chia tách giai đoạn phân tích và chọn phương pháp sẽ giúp bạn hiểu rõ bản chất, phân tích các lỗi với một tâm thế thoải mái hơn.
+Một số chẩn đoán nêu trên sẽ có các khắc phục hiển nhiên, ví dụ như thiếu dữ liệu thì sẽ lấy thêm. Tuy nhiên, việc chia tách giai đoạn phân tích và chọn phương pháp sẽ giúp bạn hiểu rõ bản chất, phân tích các lỗi với một tâm thế thoải mái hơn.
 
 ![](https://cdn-images-1.medium.com/max/800/1*ajeO-j3yi44fm9dTChZuVA.png)
 
@@ -122,7 +122,7 @@ Một số chản đoán nêu trên sẽ có các khắc phục hiển nhiên, v
 
 Sau bước phân tích ở trên thì bạn đã hình dung được mình đang phải đối phó với những loại lỗi nào và tác nhân gây ra chúng rồi. Với một chẩn đoán, có thể sẽ có nhiều giải pháp khác nhau, bước tiếp theo chính là liệt kê và đánh giá độ ưu tiên cho chúng.
 
-Tác giả khuyên rằng các Kĩ sư Học máy nên liệt kê ra càng nhiều ý tưởng càng tốt rồi bám theo những giải pháp đơn giản và nhanh. Nếu đã có sẵn một giải pháp có vể sẽ ổn thì dùng nó luôn. Có thể các phương pháp tinh vi, phức tạp sẽ cho kết quả tốt hơn, tuy nhiên qua thực tế tác giả thấy rằng sự cải thiện qua nhiều chu trình sẽ cho ra kết quả không tồi, hơn là chỉ chăm chăm sử dụng một giải pháp **state-of-the-art**, tốn khá nhiều thời gian. Giữa việc dán nhãn 1000 dữ liệu với nghiên cứu một phương pháp học không giám sát (unsupervised learning), mình nghĩ bạn nên thu thập và dán nhãn dữ liệu. Nếu như có một số **heuristic** đơn giản, bạn cũng nên thử chúng trước.
+Tác giả khuyên rằng các Kĩ sư Học máy nên liệt kê ra càng nhiều ý tưởng càng tốt rồi bám theo những giải pháp đơn giản và nhanh. Nếu đã có sẵn một giải pháp có vẻ ổn thì dùng nó luôn. Có thể các phương pháp tinh vi, phức tạp sẽ cho kết quả tốt hơn, tuy nhiên qua thực tế tác giả thấy rằng sự cải thiện qua nhiều chu trình sẽ cho ra kết quả không tồi, hơn là chỉ chăm chăm sử dụng một giải pháp **state-of-the-art**, tốn khá nhiều thời gian. Giữa việc dán nhãn 1000 dữ liệu với nghiên cứu một phương pháp học không giám sát (unsupervised learning), mình nghĩ bạn nên thu thập và dán nhãn dữ liệu. Nếu như có một số **heuristic** đơn giản, bạn cũng nên thử chúng trước.
 
 **Lời khuyên**
 
@@ -160,7 +160,7 @@ Nếu mô hình không khái quát được tập development:
 
 #### Dựng cái gì bạn cần và làm nó thật nhanh
 
-Vậy là bạn đã biết mình cần phải thử cái gì, bạn cũng đã làm cho nó đơn giản nhất có thể rồi. Giờ CHỈ cần bắt tay vào implement thôi. Mục tiêu của giai đoạn này là để nhanh chóng thử ý tưởng của bạn để có thể đo đạc, học từ đó và quay lại chu trình nhanh chóng. Do vậy, bạn chỉ nên làm những thử thực sự cần thiết. Tuy là nhanh nhưng bạn vẫn phải đảm bảm code của mình đúng nhé, hãy kiểm tra thường xuyên.
+Vậy là bạn đã biết mình cần phải thử cái gì, bạn cũng đã làm cho nó đơn giản nhất có thể rồi. Giờ CHỈ cần bắt tay vào implement thôi. Mục tiêu của giai đoạn này là để nhanh chóng thử ý tưởng của bạn để có thể đo đạc, học từ đó và quay lại chu trình nhanh chóng. Do vậy, bạn chỉ nên làm những thử thực sự cần thiết. Tuy là nhanh nhưng bạn vẫn phải đảm bảo code của mình đúng nhé, hãy kiểm tra thường xuyên.
 
 **Lời khuyên**
 
@@ -222,7 +222,7 @@ ML Engieering Loop sẽ giúp bạn hình dung rõ về quá trình để có đ
 
 Như vậy, bài viết đã đưa ra một cách tiếp cận cho các dự án Học máy. Nếu như bạn cảm thấy mông lung và không biết bắt đầu từ đâu, hãy bắt đầu phân tích các lỗi, lên ý tưởng giải quyết, code chúng và xem nó hoạt động ra sao. Không ngừng tập trung vào chu trình trên một cách liên tục có thể đem đến những kết quả không ngờ trong cả nghiên cứu và ứng dụng đấy. 
 
-Ở dưới là link gốc của bài viết, trong quá trình dịch mình có thay đổi đôi chút cho phù hợp dựa và kiến thức của bản thân. Cảm ơn bạn đã đọc bài viết !
+Ở dưới là link gốc của bài viết, trong quá trình dịch mình có thay đổi đôi chút cho phù hợp dựa vào kiến thức của bản thân. Cảm ơn bạn đã đọc bài viết !
 
 ## Reference
 
